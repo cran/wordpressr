@@ -1,7 +1,7 @@
 Package: wordpressr
 Type: Package
 Title: An API Wrapper for WordPress Site APIs
-Version: 0.1.1
+Version: 0.2.0
 Authors@R: c(person("Simit", "Patel", email = "simit@sixjupiter.com",
   role = c("aut", "cre")),
   person(given = 'SixJupiter',role = c('cph','fnd')))
@@ -17,9 +17,9 @@ RoxygenNote: 7.1.0
 Suggests: knitr, rmarkdown, testthat, stringi
 VignetteBuilder: knitr
 NeedsCompilation: no
-Packaged: 2020-09-25 21:22:34 UTC; simit.patel
+Packaged: 2021-01-04 16:32:40 UTC; simit.patel
 Author: Simit Patel [aut, cre],
   SixJupiter [cph, fnd]
 Maintainer: Simit Patel <simit@sixjupiter.com>
 Repository: CRAN
-Date/Publication: 2020-09-29 08:50:02 UTC
+Date/Publication: 2021-01-04 23:00:02 UTC
