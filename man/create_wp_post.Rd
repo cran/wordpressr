@@ -39,23 +39,21 @@ there you will get the password needed.}
 remotely hosted image file to use as the featured image for the post.
 This field defaults to a value of NULL.}
 
-\item{status_val}{The status of the post. Can be one of 'draft','publish','
-pending','future','private'.}
+\item{status_val}{The status of the post. Can be one of 'draft','publish','pending','future','private'.}
 
 \item{author_val}{The user ID of the author creating the post.}
 
 \item{format_val}{The WordPress format to use. Defaults to 'standard'.}
 
-\item{categories_val}{The category IDs the post is to be associated with;
-comma separate in a
+\item{categories_val}{The category IDs the post is to be associated with; comma separate in a
 character string if more than one.}
 
 \item{tag_val}{The tag IDs the post is to be associated with;
 comma separate in a category string if more than one.}
 }
 \value{
-A list containing the status code of the API call. A status code of 200
-indicates the call was a success.
+A tibble containing the arguments passed in as well as the URL retrieved from the
+API response.
 }
 \description{
 wCreates a new post on the WordPress site provided using the credentials entered,

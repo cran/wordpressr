@@ -15,18 +15,16 @@
 #' @param fifu_val If the Featured Image From URL plugin is installed, users can specify a
 #' remotely hosted image file to use as the featured image for the post.
 #' This field defaults to a value of NULL.
-#' @param status_val The status of the post. Can be one of 'draft','publish','
-#' pending','future','private'.
+#' @param status_val The status of the post. Can be one of 'draft','publish','pending','future','private'.
 #' @param author_val The user ID of the author creating the post.
 #' @param format_val The WordPress format to use. Defaults to 'standard'.
-#' @param categories_val The category IDs the post is to be associated with;
-#' comma separate in a
+#' @param categories_val The category IDs the post is to be associated with; comma separate in a
 #' character string if more than one.
 #' @param tag_val The tag IDs the post is to be associated with;
 #' comma separate in a category string if more than one.
 #'
-#' @return A list containing the status code of the API call. A status code of 200
-#' indicates the call was a success.
+#' @return A tibble containing the arguments passed in as well as the URL retrieved from the
+#' API response.
 #'
 #'@examples
 #' \dontrun{
@@ -44,14 +42,13 @@
 #' @import httr
 #' @import dplyr
 
-create_wp_post <- function(root_url,user,pass,title_val,excerpt_val ='',content_val,
-                           fifu_val = NULL,status_val,author_val,
+create_wp_post <- function(root_url,user,pass,title_val,excerpt_val ='',content_val,fifu_val = NULL,status_val,author_val,
                            format_val = 'standard',categories_val, tag_val = '') {
 
   pb <- list(title = title_val,
              excerpt = excerpt_val,
              content = content_val,
-             fifu = fifu_val,
+             fifu_image_url = fifu_val,
              status = status_val,
              author=author_val,
              format=format_val,
@@ -64,5 +61,8 @@ create_wp_post <- function(root_url,user,pass,title_val,excerpt_val ='',content_
             httr::authenticate(user,pass),
             body = pb,
             encode = "json")
-  return(ch)
+  response <- ch %>% httr::content()
+  cht <- tibble::tibble(post_id = response$id,url = response$guid$rendered,categories = categories_val,tags = tag_val,
+                        title = title_val, status = status_val, author = author_val)
+  return(cht)
 }

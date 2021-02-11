@@ -1,9 +1,9 @@
-6fdffcf6d6868a75f1348b67566cbd30 *DESCRIPTION
+6db3b7184ff60ff36cba99e0022d1033 *DESCRIPTION
 1b9175b89a0cc5b8624c87720e324329 *LICENSE
 42f30f9adb27f2b2a7a139a8a5f0a5ac *NAMESPACE
-66f824d2a834b4727c2771c52060fda1 *NEWS.md
+6e83d7e55f4c1562ae4492a6ed5ae3d5 *NEWS.md
 1231e9ad8bc455ba64b6ad1f748172ed *R/create-wp-page.R
-fcd3cb552a9939f30dee85d062d12925 *R/create-wp-post.R
+362edc6ce5787c82a69ce131e5725a4f *R/create-wp-post.R
 e50957a7cfb27dd4ddde2ef5089c6784 *R/create-wp-tags.R
 12341e3554cdfc7239768c86d4051fc9 *R/delete-wp-pages.R
 e0200fa9274ade0435ce6a5f7e72ca4e *R/delete-wp-tags.R
@@ -23,9 +23,9 @@ d53f4470da94966410abe7b07ce7e2e0 *README.md
 3f92166500f99d6527318bb560fa3820 *build/vignette.rds
 0922f9b98adf212da19174336aa33f51 *inst/doc/wordpressr.R
 30f8c508eff8c084beb6a29a07704329 *inst/doc/wordpressr.Rmd
-960f292834843c00572c35cbc289bf2e *inst/doc/wordpressr.html
+df0b8edbca2804443e2b347b141d978c *inst/doc/wordpressr.html
 38303c72492cf2075eab444526c5fd7f *man/create_wp_page.Rd
-6ae78d8a1d23db3b5ae11654a1a3b1ef *man/create_wp_post.Rd
+b29f0ebb06853f388d77488065dc798d *man/create_wp_post.Rd
 f45ee1a35f5a2c275f6f7b7f0022a69f *man/create_wp_tags.Rd
 5b7a855e1c05f7943f5eda9020d6486a *man/delete_wp_page.Rd
 fd65bdad8fe4ad649bedb67aaf971046 *man/delete_wp_tag.Rd
