@@ -1,3 +1,7 @@
+# wordpressr 0.2.2 (April 2021)
+
+1. A minor update to the DESCRIPTION file; the LazyData parameter was removed to ensure compliance with CRAN requirements.
+
 # wordpressr 0.2.1 (February 2021)
 
 * Amended Functions

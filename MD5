@@ -1,7 +1,7 @@
-6db3b7184ff60ff36cba99e0022d1033 *DESCRIPTION
+c51805259de178917c16ad275b985638 *DESCRIPTION
 1b9175b89a0cc5b8624c87720e324329 *LICENSE
 42f30f9adb27f2b2a7a139a8a5f0a5ac *NAMESPACE
-6e83d7e55f4c1562ae4492a6ed5ae3d5 *NEWS.md
+e4839e10f9369f5b04e8e60becdcd2f5 *NEWS.md
 1231e9ad8bc455ba64b6ad1f748172ed *R/create-wp-page.R
 362edc6ce5787c82a69ce131e5725a4f *R/create-wp-post.R
 e50957a7cfb27dd4ddde2ef5089c6784 *R/create-wp-tags.R
@@ -12,7 +12,7 @@ e0200fa9274ade0435ce6a5f7e72ca4e *R/delete-wp-tags.R
 22cdd584078f1aa759ca6d98e5b3af26 *R/get-wp-cats.R
 0358d897aad07f968b80ee0b49a8a561 *R/get-wp-pages.R
 a5f8206d0158a575fdbf39bd40a971aa *R/get-wp-posts-after.R
-d5563853eeb2fc14f312be817a8dcba5 *R/get-wp-posts.R
+bbfd56ef484d1fea294b198283ab118a *R/get-wp-posts.R
 8801efd9b9ac8359e9bb3fcdd812c3dd *R/get-wp-users.R
 53fb782d53e5dd2856c81529b77bbe30 *R/globals.R
 dbc8ffe6989bccf33d56b5258d59a463 *R/update-wp-cat.R

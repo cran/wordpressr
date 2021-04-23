@@ -1,7 +1,7 @@
 Package: wordpressr
 Type: Package
 Title: An API Wrapper for WordPress Site APIs
-Version: 0.2.1
+Version: 0.2.2
 Authors@R: c(person("Simit", "Patel", email = "simit@sixjupiter.com",
   role = c("aut", "cre")),
   person(given = 'SixJupiter',role = c('cph','fnd')))
@@ -12,14 +12,13 @@ Description: An API wrapper that helps R developers retrieve data from a WordPre
 Imports: httr, tibble, dplyr, tidyr, magrittr, glue, purrr
 License: MIT + file LICENSE
 Encoding: UTF-8
-LazyData: true
 RoxygenNote: 7.1.0
 Suggests: knitr, rmarkdown, testthat, stringi
 VignetteBuilder: knitr
 NeedsCompilation: no
-Packaged: 2021-02-11 14:45:42 UTC; simit.patel
+Packaged: 2021-04-14 02:09:09 UTC; simit.patel
 Author: Simit Patel [aut, cre],
   SixJupiter [cph, fnd]
 Maintainer: Simit Patel <simit@sixjupiter.com>
 Repository: CRAN
-Date/Publication: 2021-02-11 15:40:02 UTC
+Date/Publication: 2021-04-23 15:00:03 UTC

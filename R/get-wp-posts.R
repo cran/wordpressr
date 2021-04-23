@@ -93,7 +93,7 @@ get_wp_posts <- function(root_url, post_count = Inf,after_date = NULL) {
               itag = response[[k]]$tags[[i]]
               response_tags <- c(response_tags,itag)
             }
-            rtg <- response_tags %>% glue_collapse(sep = ',', last = ',')
+            rtg <- response_tags %>% glue::glue_collapse(sep = ',', last = ',')
           }
           if(length(response[[k]]$tags) == 0) {
             rtg = ''
@@ -104,7 +104,7 @@ get_wp_posts <- function(root_url, post_count = Inf,after_date = NULL) {
               icat = response[[k]]$categories[[i]]
               response_cats <- c(response_cats,icat)
             }
-            rtc <- response_cats %>% glue_collapse(sep = ',', last = ',')
+            rtc <- response_cats %>% glue::glue_collapse(sep = ',', last = ',')
           }
           if(length(response[[k]]$tags) == 0) {
             rtg = ''
