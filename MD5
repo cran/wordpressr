@@ -1,7 +1,7 @@
-c51805259de178917c16ad275b985638 *DESCRIPTION
+f35c97367844abae99ed418a804268e2 *DESCRIPTION
 1b9175b89a0cc5b8624c87720e324329 *LICENSE
-42f30f9adb27f2b2a7a139a8a5f0a5ac *NAMESPACE
-e4839e10f9369f5b04e8e60becdcd2f5 *NEWS.md
+619d212d0ced9368ee29fe41e618ca39 *NAMESPACE
+d67f42dffb819dff14e8c65720e22e72 *NEWS.md
 1231e9ad8bc455ba64b6ad1f748172ed *R/create-wp-page.R
 362edc6ce5787c82a69ce131e5725a4f *R/create-wp-post.R
 e50957a7cfb27dd4ddde2ef5089c6784 *R/create-wp-tags.R
@@ -18,10 +18,11 @@ bbfd56ef484d1fea294b198283ab118a *R/get-wp-posts.R
 dbc8ffe6989bccf33d56b5258d59a463 *R/update-wp-cat.R
 5aa72ce693600d4271fcd2efa456a4b9 *R/update-wp-page.R
 0a80b178765fcb25cd282bf184435aaa *R/update-wp-post.R
+270d616ecb8ca19d41ce0cfec0a5e909 *R/update-wp-tags.R
 65cef5e0674056f6fc07dd2b3ca85c13 *R/utils-pipe.R
 d53f4470da94966410abe7b07ce7e2e0 *README.md
 3f92166500f99d6527318bb560fa3820 *build/vignette.rds
-0922f9b98adf212da19174336aa33f51 *inst/doc/wordpressr.R
+9949d6732a5f4b0b4aff1cf9dc09b995 *inst/doc/wordpressr.R
 30f8c508eff8c084beb6a29a07704329 *inst/doc/wordpressr.Rmd
 df0b8edbca2804443e2b347b141d978c *inst/doc/wordpressr.html
 38303c72492cf2075eab444526c5fd7f *man/create_wp_page.Rd
@@ -40,6 +41,7 @@ e0f06e0f7c885a91c699c742569c6865 *man/get_wp_authors.Rd
 888c328d4fa1d816395fd23216b3445b *man/update_wp_cat.Rd
 94b48ab5fe5e7c56dd25862e8265450b *man/update_wp_page.Rd
 4d8c9026bd91371f8c8d59cb4cb68145 *man/update_wp_post.Rd
+3a82102fcaf7032353b13361f920347e *man/update_wp_tag.Rd
 7f429ff60706ac525b52f36cfe8a767b *tests/testthat.R
 39b12ee6f25a2b6f575ccc24115326a1 *tests/testthat/test-get-wp-authors.R
 4ac9f6f4984d3ba54563e9db50cc1e70 *tests/testthat/test-get-wp-pages.R

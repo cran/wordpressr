@@ -1,3 +1,9 @@
+# wordpressr 0.2.3 (May 2021)
+
+1. A new function was added, update_wp_tags, to allow users to use the POST method on the /tags/ pages
+as exposed by the WordPress API. 
+
+
 # wordpressr 0.2.2 (April 2021)
 
 1. A minor update to the DESCRIPTION file; the LazyData parameter was removed to ensure compliance with CRAN requirements.
